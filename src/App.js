@@ -2,6 +2,7 @@
 //import './App.css';
 
 import { MostrarAlerta } from "./components/Alerta";
+import { Avatar } from "./components/Avatar";
 
 
 
@@ -30,10 +31,19 @@ function App() {
         texto="Succes Alert"
         textSize="50px"
         ></MostrarAlerta>
-     
 
+<Avatar
+
+imagen="100%"
+
+altura="128px"
+ancho ="128px"
+></Avatar>
+
+   
 
       </header>
+
     </div>
   );
 }
